@@ -1,7 +1,10 @@
-n = ARGV[0].to_i
-vi= "12"
 
-(n / 2).times do 
-    print vi
+n = ARGV[0].to_i
+
+n.times do |i|
+    if i % 2 == 0
+        print "1"
+    else
+        print "2"
+    end
 end
-print "1"
